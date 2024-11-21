@@ -1,0 +1,639 @@
+.notification-btn
+{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #8a8a8a;
+}
+.notification-btn svg
+{
+    width: 30px;
+    height: 30px;
+}
+.notification-btn:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 8px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--white);
+    background-color: #f00;
+    border-radius: 50%;
+}
+.notification-dropdown-toggle
+{
+    border: none;
+    outline: none;
+}
+.notification-dropdown-toggle::after
+{
+    display: none;
+}
+.notification-dropdown .notification-dropdown-menu
+{
+    top: 10px !important;
+    left: initial !important;
+    right: 0px !important;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .07);
+    min-width: 300px;
+    border: 1px solid #eee;
+}
+.no-notification
+{
+    background-color: var(--white);
+    pointer-events: none;
+    color: #f00;
+    font-size: 14px;
+}
+.no-notification:hover
+{
+    background-color: var(--white);
+}
+.resume-imgbx
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.resume-imgbx .resume-img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.resume-name
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.resume-designation
+{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 17px;
+    color: var(--primary-color);
+}
+.resume-basic-info
+{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.connect-social-media
+{
+    padding-top: 30px;
+}
+.subheading-resume
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.social-media
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+.social-media-link
+{
+    font-size: 20px;
+    color: var(--primary-color);
+}
+.about-info
+{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+.mainheading-resume
+{
+    font-size: 30px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.resume-text
+{
+    font-size: 18px;
+    color: #121212;
+}
+.exp-wrapper
+{
+    margin-bottom: 29px;
+}
+.exp-wrapper .exp-year
+{
+    font-size: 20px;
+    color: #121212;
+    font-weight: 600;
+}
+.exp-role
+{
+    list-style: disc;
+    padding-left: 30px;
+}
+.connect-social-media
+{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+.skills-pill li
+{
+    display: inline-block;
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+.skills-pill li span
+{
+    display: inline-block;
+    padding: 5px 14px;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 6px;
+}
+.cv-section
+{
+    padding: 15px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+.cv-section h2
+{
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+.cv-template-option
+{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.flex-none
+{
+    flex: none;
+}
+.cv-template
+{
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 260px;
+    height: 300px;
+    flex: none;
+    transition: .4s ease;
+    cursor: pointer;
+}
+.cv-template:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url('../img/check-icon.svg');
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: center;
+    display: none;
+}
+.cv-template img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.cv-radio
+{
+    display: none;
+}
+.cv-radio:checked + .cv-template
+{
+    background-color: #180049;
+}
+.cv-radio:checked + .cv-template::before
+{
+    display: block;
+}
+.personal-info
+{
+    padding: 40px 20px;
+    background-color: #000 !important;
+}
+.dev-imgbx
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dev-imgbx .dev-img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.cv-template1 .cv-heading
+{
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #fff;
+}
+.contact-dev-info
+{
+    padding-left: 30px;
+}
+.cv-template1 .cv-subheading
+{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+}
+.cv-template1 .cv-text
+{
+    font-size: 16px;
+    color: #e8e8e8;
+    font-weight: 400;
+}
+.cv-template1 .cv-listing
+{
+    list-style: disc;
+    padding-left: 20px;
+    color: #e8e8e8;
+}
+.cv-template1 .skills-item
+{
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.personal-info > div
+{
+    margin-bottom: 30px;
+    color: #fff;
+}
+.personal-info > div:last-child
+{
+    margin-bottom: 0px;
+}
+.cv-template1 .cv-heading.cv-dark-text
+{
+    color: #121212;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #121212;
+}
+.cv-template1 .personal-details
+{
+    padding: 40px 0;
+}
+.cv-template1 .developer-name
+{
+    font-size: 32px;
+    font-weight: 400;
+    color: #121212;
+}
+.cv-template1 .developer-position
+{
+    color: #383838;
+    font-size: 20px;
+}
+.about-bio-text
+{
+    font-size: 16px;
+    color: #121212;
+}
+.profession-section > div:not(.personal-details)
+{
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.profession-section > div:not(.personal-details):last-child
+{
+    margin-bottom: 0px;
+}
+.connect-listing
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.connect-listing a
+{
+    font-size: 20px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.experience-timeline
+{
+    position: relative;
+    padding-left: 40px;
+}
+.experience-timeline .exper-year
+{
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+.experience-timeline .company-name-text
+{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.experience-timeline .exper-timeline-item
+{
+    position: relative;
+    margin-bottom: 35px;
+}
+.experience-timeline .exper-timeline-item:before
+{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    background-color: var(--white);
+    left: -30px;
+    top: 6px;
+}
+.experience-timeline:before
+{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 1px;
+    height: calc(100% - 100px);
+    background-color: var(--primary-color);
+}
+.cv-template1 .cv-subheading.cv-dark-text
+{
+    color: #121212;
+}
+.cv-template2 .developer-name
+{
+    font-size: 32px;
+    color: #fff;
+}
+.cv-template2 .developer-position
+{
+    color: #b485ff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.cv-template2 .about-bio-text
+{
+    color: #fff;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.personal-details
+{
+    max-width: 60%;
+}
+.contact-information
+{
+    background-color: #f5f7ff;
+}
+.contact-information .cv-heading
+{
+    font-size: 22px;
+    font-weight: 700;
+}
+.contact-information .cv-subheading
+{
+    font-size: 17px;
+    font-weight: 600;
+}
+.cv-template2 .connect-details
+{
+    padding: 30px 0;
+}
+.cv-template2 .connect-details .cv-heading
+{
+    font-size: 22px;
+    font-weight: 700;
+}
+.cv-template2 .cv-heading
+{
+    font-size: 22px;
+    font-weight: 700;
+}
+.cv-template2 .education-year
+{
+    font-size: 16px;
+    color: #502779;
+}
+.cv-template2 .cv-subheading
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+.cv-template2 .cv-skills-listing .skills-item
+{
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 6px;
+    background: #f2f5f7;
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+.cv-template2 .exper-listing .exper-item .company-name-text
+{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.cv-template2 .exper-listing .exper-item .cv-subheading
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.cv-template2 .exper-listing .exper-item .exper-year
+{
+    font-style: italic;
+    color: #003ba1;
+    font-weight: 600;
+}
+.cv-template2 .cv-heading
+{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #2a2a2a;
+}
+.cv-template2 .connect-details .connect-listing
+{
+    justify-content: start;
+}
+.cv-template2 .connect-details .connect-listing .connect-list-item a
+{
+    font-size: 15px;
+    text-decoration: none;
+    width: auto;
+    padding: 8px 20px;
+    gap: 10px;
+}
+.cv-template2 .exper-listing
+{
+    padding-left: 20px;
+    list-style: disc;
+}
+.cv-template2 .education-listing
+{
+    list-style: disc;
+    padding-left: 20px;
+}
+.cv-template2 .contact-information .cv-text{
+    margin-bottom: 0px;
+}
+.cv-template2 .connect-listing
+{
+    gap: 10px;
+}
+.cv-field
+{
+    box-shadow: none;
+}
+.notification-text
+{
+    font-size: 15px;
+    color: #383838;
+}
+.mark-read-btn
+{
+    display: inline-block;
+    padding: 10px;
+    color: var(--primary-color);
+    background-color: #e9ecff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid var(--primary-color);
+    outline: none;
+    transition: .4s ease;
+}
+.notification-tabs
+{
+    width: auto;
+    border: none;
+    display: inline-flex;
+}
+.notification-tabs li
+{
+    flex-grow: initial;
+}
+.notification-tabs li .nav-link
+{
+    min-width: 100px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: none;
+    color: #121212;
+}
+.notification-tabs li .nav-link.active
+{
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+.notification-wrapper
+{
+    display: flex;
+    gap: 20px;
+}
+.bell-icon
+{
+    flex: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+}
+.notification-heading
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.notification-wrapper
+{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #858585;
+}
+.notification-wrapper .notification-text
+{
+    margin-bottom: 0px;
+}
+.notify-recieve
+{
+    flex: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    flex-direction: column;
+}
+.notify-recieve span
+{
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+.new-notify
+{
+    display: inline-block;
+    padding: 4px 9px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.notification-main
+{
+    display: flex;
+    gap: 20px;
+}
+.notification-readarea
+{
+    max-width: 40%;
+    padding: 0px 20px;
+    width: 100%;
+    flex: none;
+    border-left: 1px solid #ccc;
+}
+.notification-screen
+{
+    min-height: calc(100vh - 168px);
+}
+.border-start-grey
+{
+    border-left: 1px solid #ccc;
+}

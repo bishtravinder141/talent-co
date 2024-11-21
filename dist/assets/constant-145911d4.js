@@ -1,0 +1,1 @@
+const e={upcoming:"Upcoming",isOver:"Interview Is Over",reschedule:"Rescheduled",cancelled:"Cancelled",completed:"Completed"},l={goToTalent:"Got To Talent",reschedule:"Reschedule",cancel:"Cancel",rate:"Rate",complete:"Complete"},a="Please add valid image i.e (png|jpg|jpeg)";export{e as I,l as a,a as i};

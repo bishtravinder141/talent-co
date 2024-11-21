@@ -1,0 +1,324 @@
+/**************************** Variables *****************************/
+:root {
+  --Is-yellow: #f4c63d;
+  --Is-pink: #f16275;
+  --Is-gray: #a5a5a5;
+  --Is-blue: #5da2f4;
+  --Is-light-blue: #edf1ff;
+  --Is-light-gray: #e0e0e0;
+  --Is-white: #ffffff;
+  --Is-black: #000000;
+}
+.login-signup-module .row {
+  margin: 0;
+  min-height: 100vh;
+}
+.login-signup-module {
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffff+50,feffff+50,fafafa+50 */
+  background: linear-gradient(
+    to right,
+    rgba(254, 255, 255, 1) 50%,
+    rgba(254, 255, 255, 1) 50%,
+    rgba(250, 250, 250, 1) 50%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.join-module,
+.join-tabgline {
+  padding: 20px 5%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+.join-tabgline h3 {
+  font-weight: 900;
+}
+.join-module .logo img {
+  width: 150px;
+}
+.login-signup-module h2 {
+  margin: 20px 0 15px;
+}
+.login-signup-module button.btn-design {
+  margin: 0;
+  width: 100%;
+}
+.login-signup-module button.btn-on-loading {
+  margin: 0;
+  width: 100%;
+}
+label.form-check-label {
+  font-weight: normal;
+}
+.or-with {
+  text-align: center;
+  margin: 25px 0;
+  position: relative;
+}
+.or-with:before {
+  content: "";
+  height: 1px;
+  position: absolute;
+  top: 13px;
+  left: 0;
+  width: 100%;
+  background: var(--Is-light-gray);
+}
+.or-with span {
+  background: #fff;
+  position: relative;
+  padding: 0 15px;
+}
+.sign-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+.sign-options a.border-btn {
+  border: 1px solid var(--Is-black);
+  border-radius: 10px;
+  padding: 11px;
+  flex: 1 1 48.5%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  gap: 10px;
+}
+
+.sign-options div.border-btn {
+  border: 1px solid var(--Is-black);
+  border-radius: 10px;
+  flex: 1 1 48.5%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  gap: 10px;
+}
+.social-login-btn{
+  background: none;
+  border: 1px solid var(--Is-black);
+  border-radius: 12px;
+  padding: 11px;
+  flex: 1 1 48.5%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  gap: 10px;
+}
+
+.social-login-btn:hover {
+  background: var(--Is-light-gray);
+  color: var(--Is-black);
+}
+.sign-options a.border-btn:hover {
+  background: var(--Is-light-gray);
+  color: var(--Is-black);
+}
+.join-module p {
+  text-align: center;
+  max-width: 365px;
+  margin: 0 auto 15px;
+}
+.fieldset {
+  position: relative;
+}
+i.fa-eye.icon-position,
+i.fa-eye-slash.icon-position {
+  position: absolute;
+  top: 19px;
+  right: 15px;
+}
+.form_wrap .form-check .custom_check input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+section.login-process-sec {
+  min-height: 81.28vh;
+}
+.login-process-wrap {
+  max-width: 650px;
+  margin: 0 auto;
+  box-shadow: 0 0 30px 0 rgb(0 0 0 / 8%);
+  border-radius: 40px;
+  padding: 50px 7%;
+  text-align: center;
+}
+.types-col {
+  width: 50%;
+  padding: 30px;
+  max-width: 260px;
+  margin: 0 10px;
+  position: relative;
+}
+.types-col img {
+  margin: 15px auto 11px;
+}
+.types-col p {
+  margin: 0;
+}
+.login-process-wrap h3 {
+  font-weight: 900;
+}
+.types-col input.radio-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+.inputype-col img {
+  position: absolute;
+  right: -12px;
+  top: -12px;
+  margin: 0;
+  opacity: 0;
+  width: 38px;
+}
+.inputype-col span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1px solid var(--Is-light-gray);
+  border-radius: 15px;
+}
+.types-col input.radio-btn:checked + span {
+  border-color: var(--Is-black);
+}
+.types-col input.radio-btn:checked + span img {
+  opacity: 1;
+}
+.login-process-wrap .btn-design {
+  width: 100%;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+.login-process-wrap .btn-on-loading {
+  width: 100%;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+.captcha img,
+.successfully-col img {
+  margin: 20px auto 5px;
+}
+.successfully-col img {
+  margin-bottom: 30px;
+}
+.digit-group input {
+  padding: 10px;
+  margin: 5px 3px 20px;
+  width: 55px;
+  border-radius: 8px;
+  border: 1px solid var(--Is-light-gray);
+  height: 55px;
+  text-align: center;
+}
+.form-wrap p:last-of-type {
+  margin: 0 auto;
+}
+
+.OTPInputContainer {
+  justify-content: center;
+  gap: 3px;
+}
+
+/* .OTPInputBox input {
+  padding: 10px;
+  width: 55px !important;
+  border-radius: 8px;
+  border: 1px solid var(--Is-light-gray);
+  height: 55px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+} */
+
+.otpInput {
+  padding: 10px;
+  margin: 5px 3px 20px;
+  width: 55px !important;
+  border-radius: 8px;
+  border: 1px solid var(--Is-light-gray);
+  height: 55px;
+  text-align: center;
+}
+
+.btnDisable {
+  background: #d4dbd4d1 !important;
+  border: none !important;
+  color: black !important;
+  cursor: not-allowed;
+}
+
+.highlightedText {
+  text-decoration: underline;
+  font-weight: 500;
+  outline: none;
+  transition: all 0.3s;
+  color: var(--Is-black);
+  cursor: pointer;
+}
+
+.highlightedText:hover {
+  color: var(--Is-yellow) !important;
+  text-decoration: none !important;
+}
+.custom_login h2 {
+  font-size: 30px;
+}
+
+.custom_login .logo {
+  margin-bottom: 120px;
+}
+
+.custom_login .logo img {
+  max-width: 120px;
+  width: 100%;
+}
+
+
+@media (max-width: 1400px) {
+  h2 {
+    font-size: 32px;
+  }
+  .form-control.input-icon {
+    padding: 11px 12px 10px 42px;
+  }
+  span.input-field-icon {
+    top: 14px;
+    left: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sign-options a.border-btn {
+    flex: 1 1 100%;
+  }
+  .join-module,
+  .join-tabgline {
+    padding: 5%;
+  }
+  .join-tabgline {
+    display: none;
+  }
+}

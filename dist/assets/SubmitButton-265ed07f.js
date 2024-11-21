@@ -1,0 +1,1 @@
+import{j as n,O as m}from"./index-f542c721.js";const a=({loader:t,disabled:o,type:s="submit",contentText:i,onClickCallBack:u})=>n.jsxs("button",{type:s,className:`${t?"btn-on-loading":"btn-design"}`,disabled:o,...s!=="submit"&&{onClick:u},children:[t&&n.jsx(m,{}),i]});export{a as S};
