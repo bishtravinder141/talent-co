@@ -37,3 +37,9 @@ A modern job portal designed to connect job seekers and recruiters efficiently.
    ```bash
    npm install
 4. Add the .env file.
+5. Run the project:
+    ```bash
+    npm run dev
+6. For run the test case:
+   ```bash
+   npm run test 
